@@ -30,3 +30,18 @@ footer{
     width: 100%;
     bottom: 0;
 }
+.buttons a{
+    color: var(--bs-light)
+}
+.buttons a:nth-child(4n - 3) {
+    background-color: var(--bs-green);
+}
+.buttons a:nth-child(4n - 2) {
+    background-color: var(--bs-blue);
+}
+.buttons a:nth-child(4n - 1) {
+    background-color: var(--bs-yellow);
+}
+.buttons a:nth-child(4n) {
+    background-color: var(--bs-red);
+}
