@@ -40,8 +40,8 @@ footer{
     background-color: var(--bs-blue);
 }
 .buttons a:nth-child(4n - 1) {
-    background-color: var(--bs-yellow);
+    background-color: var(--bs-red);
 }
 .buttons a:nth-child(4n) {
-    background-color: var(--bs-red);
+    background-color: var(--bs-yellow);
 }
